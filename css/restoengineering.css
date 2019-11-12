@@ -58,7 +58,7 @@
       color: rgba(255, 255, 255, 0.89);
     }
     #mainNav .nav-link:active {
-      color: white;
+      color: rgba(255, 255, 255, 0.712);
     }
     #mainNav.navbar-shrink {
       background-color: #fff;
@@ -146,20 +146,20 @@
   }
   
   .btn-primary {
-    background-color: #64a19d;
+    background-color: #365e5b;
   }
   
   .btn-primary:hover {
-    background-color: #4f837f;
+    background-color: #365e5b;
   }
   
   .btn-primary:focus {
-    background-color: #4f837f;
+    background-color: #365e5b;
     color: white;
   }
   
   .btn-primary:active {
-    background-color: #467370 !important;
+    background-color: #365e5b !important;
   }
   
   .about-section {
@@ -182,7 +182,7 @@
   @media (min-width: 992px) {
     .projects-section .featured-text {
       padding: 0 0 0 2rem;
-      border-left: 0.5rem solid #64a19d;
+      border-left: 0.5rem solid #365e5b;
     }
   }
   
@@ -196,7 +196,7 @@
       padding: 5rem;
     }
     .projects-section .project-text hr {
-      border-color: #64a19d;
+      border-color: #365e5b;
       border-width: .25rem;
       width: 30%;
     }
@@ -228,7 +228,7 @@
   
   .contact-section .card {
     border: 0;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #365e5b;
   }
   
   .contact-section .card h4 {
@@ -239,7 +239,7 @@
   }
   
   .contact-section .card hr {
-    border-color: #64a19d;
+    border-color: #365e5b;
     border-width: 0.25rem;
     width: 3rem;
   }
@@ -272,12 +272,12 @@
   }
   
   a {
-    color: #64a19d;
+    color: #365e5b;
   }
   
   a:focus, a:hover {
     text-decoration: none;
-    color: #3c6360;
+    color: #365e5b;
   }
   
   .bg-black {
@@ -285,11 +285,11 @@
   }
   
   .bg-primary {
-    background-color: #64a19d !important;
+    background-color: #365e5b !important;
   }
   
   .text-primary {
-    color: #64a19d !important;
+    color: #365e5b !important;
   }
   
   footer {
