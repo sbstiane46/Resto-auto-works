@@ -36,6 +36,21 @@ function browserSync(done) {
   done();
 }
 
+gulp.task('browserSync', () => {
+  browserSync.init({
+      server: {
+          baseDir: task.dir.base,
+          middleware: [
+              webpackDevMiddleware(bundler, {
+                  publicPath: webpackConfig.output.publicPath,
+                  stats: 'errors-only'
+              })
+            ]
+      },
+      browser: 'chrome'
+  });
+});
+
 // BrowserSync reload
 function browserSyncReload(done) {
   browsersync.reload();
