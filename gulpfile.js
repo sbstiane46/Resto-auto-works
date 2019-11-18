@@ -25,6 +25,16 @@ const banner = ['/*!\n',
   '\n'
 ].join('');
 
+
+//Heroku deployment
+gulp.task('serveprod', function() {
+  connect.server({
+    root: [your_project_path],
+    port: process.env.PORT || 3000, // localhost:3000
+    livereload: false
+  });
+});
+
 // BrowserSync
 function browserSync(done) {
   browsersync.init({
